@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 1em;
+}
+
+.score-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.mini-logo {
+    width: 30px;
+    height: 30px;
+    background: url('images/Mini\ Logo.png') no-repeat center center;
+    background-size: contain;
+}
+
+.score {
+    font-size: 2em;
+}
+
+.coin {
+    width: 200px;
+    height: 200px;
+    margin: 40px auto;
+    background: url('images/Main\ Coin.png') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.energy-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.energy-icon {
+    width: 20px;
+    height: 20px;
+    background: url('images/Thunder.png') no-repeat center center;
+    background-size: contain;
+}
+
+.energy-counter {
+    font-size: 1.2em;
+}
+
+.energy-bar-container {
+    width: 80%;
+    height: 20px;
+    background-color: grey;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto 20px auto;
+}
+
+.energy-bar {
+    height: 100%;
+    background-color: white;
+    width: 0%; /* Начинается с 0% и изменяется с помощью JavaScript */
+}
+
+/* Стили для кнопки Friends */
+.friends-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.friends-button {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.friends-text {
+    font-size: 0.8em;
+    color: white;
+    margin-top: 5px;
+}
